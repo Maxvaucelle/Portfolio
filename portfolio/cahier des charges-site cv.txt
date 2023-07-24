@@ -1,0 +1,29 @@
+Choses essentielles à integrer au site:
+
+*Courte présentation de mon parcours/mes objectifs 
+*Lien vers quelques reseaux sociaux
+*CV pdf à télécharger
+*Les langages de programmation appris (section affichant les logos par exemple)
+*Mes derniers projets "finis"
+
+----------------------------------------------------------------------
+Choix des couleurs et police d'écriture:
+
+*blanc (couleur dominante)
+*vert (couleur secondaire)
+
+*Barlow, regular 400 (à déterminer) pour les paragraphes
+*Barlow, medium 500 ("--") pour les titres
+
+---------------------------------------------------------------------
+disposition:
+
+*insérer une image en background qui présentera le thème et un titre accrocheur
+*La présentation apparaitra au premier scroll et s'affichera devant l'image
+*Les sections présentant mon parcours s'afficheront à la suite des autres et présenteront un premier screen d'un des projets
+*L'accès à une galerie se fera en cliquant sur le screen en question et présentera d'autres screen du projet (à determiner)
+*Une section réseaux sociaux sera fixée sur le coté (à determiner), aligné aux sections parcours
+*Une section langages de prog sera fixée sous la section RS
+*Le CV format PDF sera disponible au téléchargement en fin de page, via un screen (à determiner)
+
+
