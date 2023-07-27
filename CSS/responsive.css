@@ -1,0 +1,104 @@
+@media screen and (min-width:500px) and (max-width:1000px) {
+    header img{
+        height: 40vh;
+    }
+
+    .headerText{
+        top: 100px;
+    }
+
+    .header-titre h1{
+        font-size: 40px;
+    }
+
+    .header-present p{
+        font-size: 20px;
+    }
+
+    section h2{
+        font-size: 30px;
+    }
+
+    .section-present p{
+        font-size: 20px;
+    }
+    .content-titre{
+        font-size: 20px;
+    }
+
+    .content-present{
+        font-size: 15px;
+    }
+
+    aside h3{
+        font-size: 90%;
+    }
+
+    #openAside{
+        width: 40px;
+    }
+
+    aside span{
+        font-size: 10px;
+    }
+
+    aside img{
+        width: 20%;
+    }
+
+    form input,textarea{
+    width: 60vw;
+    }
+    form button{
+        width: 20vw;
+    }
+
+    .cv{
+        font-size: 10px;
+    }
+
+    .cv img{
+        width: 15vw;
+        height:10vh;
+    }
+}
+
+@media screen and (min-width:1001px) and (max-width:1500px) {
+    header img{
+        height: 60vh;
+    }
+
+    .header-titre h1{
+        font-size: 60px;
+    }
+
+    .header-present p{
+        font-size: 30px;
+    }
+
+    section h2{
+        font-size: 50px;
+    }
+
+    .section-present p{
+        font-size: 25px;
+    }
+    .content-titre{
+        font-size: 35px;
+    }
+
+    .content-present{
+        font-size: 25px;
+    }
+    form input,textarea{
+    width: 40vw;
+    }
+    form button{
+        width: 13vw;
+    }
+    .cv img{
+        width: 20vw;
+        height:30vh;
+    }
+}
+
