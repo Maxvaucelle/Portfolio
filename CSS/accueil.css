@@ -8,6 +8,10 @@ body{
     background-color: whitesmoke;
 }
 
+a{
+    text-decoration: none;
+}
+
 header img{
 width: 99vw;
 height: 90vh;
@@ -35,6 +39,7 @@ color: aliceblue;
     transition: 1.5s ease;
     animation: slideUpAnimation 1.5s ease;
     color: rgb(22, 208, 142);
+    
 }
 
 @keyframes slideUpAnimation {
@@ -56,10 +61,9 @@ aside{
     position: sticky;
     top: 8%;
     float: left;
-   margin: 10% 2%;
+   margin: 10% 2% 50%;
    z-index: 10;
    font-weight: bold;
-   height: 40vh;
 }
 
 aside img{
@@ -69,6 +73,11 @@ aside img{
 aside h3{
     text-align: center;
     margin-bottom: 20px;
+}
+
+.menu-fleche{
+/* display: none; */
+margin-left: 20%;
 }
 
 
@@ -94,11 +103,9 @@ aside h3{
 
 section{
     padding: 20px 20px 0;
-    text-align: center;
-    position: sticky;
-    top: 0;  
+    text-align: center;  
     background-color: whitesmoke;
-    z-index: 5;
+    
 }
 
 section  h2{
@@ -132,6 +139,12 @@ main{
     padding: 30px;
 }
 
+#hiddenPresent3,#hiddenPresent4,#hiddenPresent5,#hiddenPresent6{
+    visibility: hidden;
+    transition: 1s ease-in-out;
+    opacity: 0;
+}
+
 .content-titre{
     font-size: 40px;
     margin-bottom: 4%;
@@ -155,6 +168,70 @@ main{
     
 }
 
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(35, 35, 124);
+    background: linear-gradient(whitesmoke,rgb(35, 35, 124));
+    margin: 4% auto 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 15px;
+    
+} form h2{
+    margin-bottom: 2%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+input {
+    font-size: 20px;
+   margin-bottom: 2%;
+    border: 4px ridge;
+    outline: none;
+    width: 30vw;
+    border-radius: 15px;
+    padding: 1%;
+}
+
+textarea{
+    font-size: 20px;
+    width: 30vw;
+    border: 4px ridge;
+    outline: none;
+    border-radius: 15px;
+    padding: 1%;
+}
+
+button{
+    font-size: 20px;
+    width: 10vw;
+    border: 4px ridge;
+    outline: none;
+    border-radius: 15px;
+    padding: 1%;
+    margin-left: 69%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.cv{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 2%;
+    font-size: 20px;
+}
+
+.cv img{
+    width: 10vw;
+    height: 30vh;
+}
 
 
 
