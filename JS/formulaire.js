@@ -62,7 +62,6 @@ function formatEmail(inputDeclencheur) {
 
 function envoyerFormulaire() {
   // je verifie que mes champs obligatoires sont remplis grace à la valeur de mon return dans la fonction.
-
   if (
     saisieObligatoire(document.getElementById("input-nom")) == false ||
     saisieObligatoire(document.getElementById("input-prenom")) == false ||
@@ -70,20 +69,26 @@ function envoyerFormulaire() {
     formatNomPrenom(document.getElementById("input-nom")) == false ||
     formatNomPrenom(document.getElementById("input-prenom")) == false ||
     formatEmail(document.getElementById("input-mail")) == false 
-  ) {
-    window.alert("erreur dans le formulaire");
-    return false;
-  } else {
-    return true;
+    ) {
+      window.alert("erreur dans le formulaire");
+      return false;
+    } else {
+      return true;
+      
+    }
   }
-}
+  
+  window.addEventListener("load", function () {
+    
+    let form = document.getElementById("form");
 
-window.addEventListener("load", function () {
-
-    let btn_valider = document.getElementById('valider');  
-
-    btn_valider.addEventListener('click', function (){
-        envoyerFormulaire();
+    form.addEventListener("submit", function (event) {
+      // Soumet le formulaire après les vérifications
+      if (!envoyerFormulaire()) {
+        event.preventDefault(); // Empêche le formulaire d'être soumis si des erreurs sont détectées
+      } else {
+        form.reset(); // Réinitialise le formulaire après l'envoi
+      }
     });
 
   document.getElementById("input-nom").addEventListener("blur", function () {

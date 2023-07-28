@@ -1,10 +1,10 @@
-@media screen and (min-width:500px) and (max-width:1000px) {
+@media screen and (max-width:669px) {
     header img{
         height: 40vh;
     }
 
     .headerText{
-        top: 100px;
+        top: 80px;
     }
 
     .header-titre h1{
@@ -12,7 +12,73 @@
     }
 
     .header-present p{
+        font-size: 15px;
+    }
+
+    section h2{
+        font-size: 30px;
+    }
+
+    .section-present p{
         font-size: 20px;
+    }
+    .content-titre{
+        font-size: 20px;
+    }
+
+    .content-present{
+        font-size: 15px;
+    }
+
+    aside h3{
+        font-size: 90%;
+    }
+
+    #openAside{
+        width: 40px;
+    }
+
+    aside span{
+        font-size: 10px;
+    }
+
+    aside img{
+        width: 20%;
+    }
+
+    form input,textarea{
+    width: 60vw;
+    }
+    form button{
+        width: 20vw;
+    }
+
+    .cv{
+        font-size: 10px;
+    }
+
+    .cv img{
+        width: 15vw;
+        height:10vh;
+    }
+}
+ 
+
+@media screen and (min-width:670px) and (max-width:1000px) {
+    header img{
+        height: 40vh;
+    }
+
+    .headerText{
+        top: 90px;
+    }
+
+    .header-titre h1{
+        font-size: 40px;
+    }
+
+    .header-present p{
+        font-size: 18px;
     }
 
     section h2{
@@ -63,13 +129,17 @@
     }
 }
 
-@media screen and (min-width:1001px) and (max-width:1500px) {
+@media screen and (min-width:1001px) and (max-width:1600px) {
     header img{
         height: 60vh;
     }
 
     .header-titre h1{
         font-size: 60px;
+    }
+
+    .headerText{
+        top: 90px;
     }
 
     .header-present p{

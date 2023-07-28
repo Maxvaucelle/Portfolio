@@ -45,7 +45,7 @@ color: aliceblue;
 @keyframes slideUpAnimation {
     0% {
         opacity: 0;
-        transform: translateY(150px); /* Déplacement vers le bas de 50 pixels */
+        transform: translateY(150px); /* Déplacement vers le bas de 150 pixels */
     }
     100% {
         opacity: 1;
@@ -59,11 +59,11 @@ color: aliceblue;
 
 aside{
     position: sticky;
-    top: 8%;
+    top: 2%;
     float: left;
    margin: 10% 2% 50%;
-   z-index: 10;
    font-weight: bold;
+   height: 100vh;
 }
 
 aside img{
@@ -91,7 +91,21 @@ nav{
 
 .active {
     display: block;
+    transition: 1s ease-in-out;
+    animation: slideUpAnimation2 1s ease;
+
   }
+
+  @keyframes slideUpAnimation2 {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px); /* Déplacement vers la gauche de 150 pixels */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Retour à la position d'origine */
+    }
+}
 
 
 .langages{
